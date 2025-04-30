@@ -1,0 +1,43 @@
+{
+  "user": {
+    "id": "usr_123456789",
+    "personalInfo": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "dateOfBirth": "1990-05-15",
+      "gender": "male",
+      "nationality": "United States"
+    },
+    "contact": {
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567",
+      "address": {
+        "street": "123 Main Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94105",
+        "country": "United States"
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "America/Los_Angeles",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "account": {
+      "createdAt": "2023-01-15T08:30:00Z",
+      "lastLogin": "2024-03-20T14:45:00Z",
+      "status": "active",
+      "role": "user"
+    },
+    "socialProfiles": {
+      "linkedin": "linkedin.com/in/johndoe",
+      "twitter": "@johndoe",
+      "github": "github.com/johndoe"
+    }
+  }
+}
