@@ -7,11 +7,11 @@ export default class YnmCraftGenerator extends Generator {
     }
 
     initializing() {
-        this.log('>>> Initializing YNM craft');
+        this.log('>>> Initializing YNM craft v0.2.0');
     }
 
     async prompting() {
-        this.log('>>> Prompting YNM craft');
+        this.log('>>> Prompting YNM craft v0.2.0');
         this.answers = await this.prompt([
             {
                 type: 'input',
@@ -23,16 +23,16 @@ export default class YnmCraftGenerator extends Generator {
     }
 
     configuring() {
-        this.log('>>> Configuring YNM craft');
+        this.log('>>> Configuring YNM craft v0.2.0');
         this.config.save();
     }
 
     default() {
-        this.log('>>> Default YNM craft');
+        this.log('>>> Default YNM craft v0.2.0');
     }
 
     writing() {
-        this.log('>>> Writing YNM craft');
+        this.log('>>> Writing YNM craft v0.2.0');
         this.fs.copyTpl(
             this.templatePath('dummy.json'),
             this.destinationPath('dummy.json'),
@@ -41,14 +41,14 @@ export default class YnmCraftGenerator extends Generator {
     }
 
     conflicts() {
-        this.log('>>> Conflicts YNM craft');
+        this.log('>>> Conflicts YNM craft v0.2.0');
     }
 
     install() {
-        this.log('>>> Install YNM craft')
+        this.log('>>> Install YNM craft v0.2.0')
     }
 
     end() {
-        this.log('>>> End YNM craft')
+        this.log('>>> End YNM craft v0.2.0')
     }
 }
